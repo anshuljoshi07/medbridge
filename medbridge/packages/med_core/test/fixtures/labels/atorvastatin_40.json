@@ -1,0 +1,55 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "X 4471209",
+   "TAKE 1 TABLET BY MOUTH AT BEDTIME",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0l00",
+   "RX 4471209",
+   "ATORVASTATIN 40 MG TABLET",
+   "TAKE 1 TABET BY MOUTH AT BEDTIME",
+   "QTY: 30   REFILLS: 2",
+   "FILLE: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "RX 4471209",
+   "ATORVASTATIN 40 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH AT BEDTIME",
+   "QTY: 30   REFILL5: 2",
+   "DR. A. SMIH"
+  ],
+  [
+   "RX 4471209",
+   "ATORVASTATIN 40 MG TABET",
+   "QTY: 30   REFILLS: 2",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  2l7-555-0100",
+   "ATORVASTATIN 40 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH AT BEDTIME",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "TAKE 1 TBLET BY MOUTH AT BEDTlME",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026"
+  ]
+ ],
+ "expected": {
+  "ing": "atorvastatin",
+  "strength": "40 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

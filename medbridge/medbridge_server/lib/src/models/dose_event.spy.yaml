@@ -1,0 +1,11 @@
+class: DoseEvent
+table: dose_event
+fields:
+  scheduleId: int, relation(parent=dose_schedule, onDelete=Cascade)
+  dueAt: DateTime
+  state: DoseState
+  loggedAt: DateTime?
+indexes:
+  dose_event_schedule_due_idx:
+    fields: scheduleId, dueAt
+    unique: true

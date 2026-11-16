@@ -1,0 +1,11 @@
+{
+  "test": true,
+  "note": "Placeholder rows curated from the published high-priority DDIs for EHRs list. Licensing to be confirmed (Q6).",
+  "pairs": [
+    {"a": "warfarin", "b": "ibuprofen", "sev": "major", "msg": "bleeding risk"},
+    {"a": "warfarin", "b": "naproxen", "sev": "major", "msg": "bleeding risk"},
+    {"a": "simvastatin", "b": "clarithromycin", "sev": "major", "msg": "muscle injury risk"},
+    {"a": "lisinopril", "b": "spironolactone", "sev": "major", "msg": "high potassium risk"},
+    {"a": "losartan", "b": "spironolactone", "sev": "major", "msg": "high potassium risk"}
+  ]
+}

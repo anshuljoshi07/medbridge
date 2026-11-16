@@ -1,0 +1,55 @@
+# Publishes the MedBridge patient web app to GitHub Pages.
+#
+# Pages only serves static files: the app still needs a running MedBridge
+# server. Set the repository variable MEDBRIDGE_API_URL (Settings → Secrets
+# and variables → Actions → Variables) to that server's URL, e.g. a Codespace
+# forwarded port https://<name>-8080.app.github.dev/ (port set to Public).
+# Without it the app falls back to http://localhost:8080/.
+name: Deploy web app to Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["medbridge/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Install dependencies
+        working-directory: medbridge
+        run: flutter pub get
+      - name: Build web app
+        working-directory: medbridge/medbridge_flutter
+        run: >
+          flutter build web --release
+          --base-href "/${{ github.event.repository.name }}/"
+          --dart-define=SERVER_URL=${{ vars.MEDBRIDGE_API_URL }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: medbridge/medbridge_flutter/build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

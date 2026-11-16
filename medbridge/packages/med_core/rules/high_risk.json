@@ -1,0 +1,15 @@
+{
+  "test": true,
+  "note": "Placeholder rows. Replace with licensed ISMP high-alert (community/ambulatory) + AGS Beers lists before any pilot (Q6).",
+  "items": [
+    {"ing": "warfarin"},
+    {"ing": "apixaban"},
+    {"ing": "rivaroxaban"},
+    {"ing": "insulin glargine"},
+    {"ing": "insulin lispro"},
+    {"ing": "methotrexate"},
+    {"ing": "oxycodone"},
+    {"ing": "glipizide"},
+    {"ing": "digoxin"}
+  ]
+}

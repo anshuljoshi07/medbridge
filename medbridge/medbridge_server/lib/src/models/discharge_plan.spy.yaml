@@ -1,0 +1,15 @@
+class: DischargePlan
+table: discharge_plan
+fields:
+  patientId: int, relation(parent=patient, onDelete=Cascade)
+  source: String, default='avs_scan'
+  dischargeDate: DateTime?
+  status: PlanStatus, default=draft
+  allergiesJson: String, default='[]'
+  unrecognizedJson: String, default='[]'
+  verifiedBy: UuidValue?
+  verifiedAt: DateTime?
+  createdAt: DateTime, default=now
+indexes:
+  discharge_plan_patient_idx:
+    fields: patientId

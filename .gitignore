@@ -1,0 +1,35 @@
+# Secrets — never commit
+config/passwords.yaml
+**/config/passwords.yaml
+.env
+.env*
+!.env.example
+*service-account*.json
+google-services.json
+GoogleService-Info.plist
+
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec_overrides.yaml
+coverage/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Serverpod local state (embedded Postgres data, logs) and built web app
+.serverpod/
+**/.serverpod/
+medbridge/medbridge_server/web/app/
+# Agent tooling installed by serverpod create (machine-local)
+medbridge/.dart_skills/
+medbridge/.agents/
+medbridge/.cursor/
+medbridge/.mcp.json
+medbridge/.claude/

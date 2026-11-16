@@ -1,0 +1,16 @@
+class: PlanItemInput
+fields:
+  itemKey: String
+  action: String
+  name: String
+  rxcui: String?
+  scd: String?
+  ings: List<String>
+  strength: String?
+  form: String
+  sigRaw: String
+  holdUntil: DateTime?
+  holdNote: String?
+  src: String
+  conf: double
+  classIds: List<String>

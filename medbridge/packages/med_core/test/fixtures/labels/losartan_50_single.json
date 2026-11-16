@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "LOSARTAN POTASSIUM 50 MG TAB",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "losartan",
+  "strength": "50 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

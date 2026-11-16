@@ -1,0 +1,5 @@
+enum: LinkStatus
+values:
+  - pending
+  - active
+  - revoked

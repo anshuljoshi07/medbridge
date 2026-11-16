@@ -1,0 +1,21 @@
+name: medbridge_dashboard
+description: MedBridge clinician dashboard (Flutter web) for pharmacists, clinicians and PCPs.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+  flutter: ^3.44.4
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

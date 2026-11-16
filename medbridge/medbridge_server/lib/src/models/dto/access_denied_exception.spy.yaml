@@ -1,0 +1,4 @@
+# Thrown when the caller is not linked to the patient or lacks the role (403).
+exception: AccessDeniedException
+fields:
+  message: String

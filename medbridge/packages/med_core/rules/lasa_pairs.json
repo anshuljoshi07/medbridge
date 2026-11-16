@@ -1,0 +1,36 @@
+{
+  "test": true,
+  "note": "Placeholder rows. Replace with the pharmacist-curated ISMP confused-names list before any pilot (Q6). tallA/tallB = ISMP Tall Man lettering (curated).",
+  "pairs": [
+    {
+      "a": "hydroxyzine",
+      "b": "hydralazine",
+      "tallA": "hydrOXYzine",
+      "tallB": "hydrALAZINE"
+    },
+    {
+      "a": "metformin",
+      "b": "metronidazole",
+      "tallA": "metFORMIN",
+      "tallB": "metroNIDAZOLE"
+    },
+    {
+      "a": "clonidine",
+      "b": "klonopin",
+      "tallA": "cloNIDine",
+      "tallB": "KlonoPIN"
+    },
+    {
+      "a": "glipizide",
+      "b": "glyburide",
+      "tallA": "glipiZIDE",
+      "tallB": "glyBURIDE"
+    },
+    {
+      "a": "tramadol",
+      "b": "trazodone",
+      "tallA": "traMADol",
+      "tallB": "traZODone"
+    }
+  ]
+}

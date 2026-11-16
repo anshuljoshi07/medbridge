@@ -1,0 +1,18 @@
+class: ReconRow
+table: recon
+fields:
+  scanId: int, relation(parent=bottle_scan, onDelete=Cascade)
+  planItemId: int?
+  itemKey: String?
+  status: String
+  reason: String
+  sev: String
+  flagsJson: String, default='[]'
+  paramsJson: String, default='{}'
+  ruleVersion: String
+  resolvedNote: String?
+  resolvedBy: UuidValue?
+  createdAt: DateTime, default=now
+indexes:
+  recon_scan_idx:
+    fields: scanId

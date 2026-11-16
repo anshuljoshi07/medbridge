@@ -1,0 +1,11 @@
+class: DoseSchedule
+table: dose_schedule
+fields:
+  planItemId: int, relation(parent=plan_item, onDelete=Cascade)
+  slotsJson: String
+  prn: bool
+  active: bool, default=true
+  suspendedUntil: DateTime?
+indexes:
+  dose_schedule_item_idx:
+    fields: planItemId

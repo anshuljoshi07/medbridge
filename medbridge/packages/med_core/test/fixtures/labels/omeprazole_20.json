@@ -1,0 +1,53 @@
+{
+ "frames": [
+  [
+   "CRLE PHRMACY  217-555-010O",
+   "RX 44712O9",
+   "OMEPRAZOLE DR 20 MG CAPSUE",
+   "TAKE 1 CAPSULE BY MOUTH DAILY 8EFORE 8REAKFAST",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "OMERAZOLE DR 20 MG CAPSULE",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "OMEPRAZOLE DR 20 MG CAPSULE",
+   "TAKE 1 CAPSUL BY MOUTH DAILY BEFORE BREAKFA5T",
+   "DR. A. SMlTH"
+  ],
+  [
+   "CARLE PHARMACY  2l7-555-0100",
+   "RX 4471209",
+   "OMEPRAZOLE DR 20 MG CAPSULE",
+   "TAKE 1 CAPSULE BY MOUTH DAILY BEFORE BREAKFAST",
+   "QTY: 30   REFILS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "AKE 1 CAPSULE BY MOUTH DAILY BEFORE BREAKFAST",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 44712O9",
+   "OMEPRAZOLE DR 20 MG CAPSULE",
+   "R. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "omeprazole",
+  "strength": "20 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

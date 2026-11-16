@@ -1,0 +1,15 @@
+# A patient profile, one per auth user who signs in as a patient (A9.2).
+class: Patient
+table: patient
+fields:
+  userId: UuidValue
+  firstName: String, default='Patient'
+  lang: String, default='en'
+  birthYear: int?
+  utcOffsetMin: int, default=0
+  allergiesJson: String, default='[]'
+  createdAt: DateTime, default=now
+indexes:
+  patient_user_idx:
+    fields: userId
+    unique: true

@@ -1,0 +1,16 @@
+class: Question
+table: question
+fields:
+  patientId: int, relation(parent=patient, onDelete=Cascade)
+  text: String
+  source: String       # auto|patient|caregiver
+  linkedReconId: int?
+  askedBy: UuidValue?
+  status: QuestionStatus, default=open
+  answer: String?
+  answeredBy: UuidValue?
+  answeredAt: DateTime?
+  createdAt: DateTime, default=now
+indexes:
+  question_patient_idx:
+    fields: patientId

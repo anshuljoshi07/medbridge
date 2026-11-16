@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "LISINOPRIL 10 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "lisinopril",
+  "strength": "10 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

@@ -1,0 +1,6 @@
+class: PcpSummary
+fields:
+  patient: Patient
+  plan: PlanView?
+  history: List<ScanHistoryEntry>
+  questions: List<Question>

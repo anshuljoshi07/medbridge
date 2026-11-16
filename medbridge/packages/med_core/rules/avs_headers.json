@@ -1,0 +1,49 @@
+{
+  "note": "Epic-style AVS section headers. Confirm against de-identified Carle samples (Q1). Matching is case-insensitive prefix.",
+  "start": [
+    "start taking",
+    "new medications",
+    "begin taking"
+  ],
+  "change": [
+    "change how you take",
+    "changed medications",
+    "take differently"
+  ],
+  "keep": [
+    "continue taking",
+    "continue these medications",
+    "keep taking"
+  ],
+  "stop": [
+    "stop taking",
+    "discontinue",
+    "stopped medications"
+  ],
+  "hold": [
+    "hold",
+    "pause taking",
+    "do not take until"
+  ],
+  "allergies": [
+    "allergies",
+    "allergy list",
+    "you are allergic to"
+  ],
+  "end": [
+    "follow-up",
+    "follow up",
+    "appointments",
+    "instructions",
+    "diet",
+    "activity",
+    "when to call",
+    "your next steps",
+    "discharge diagnosis"
+  ],
+  "allergySynonyms": {
+    "penicillin": "penicillins",
+    "pcn": "penicillins",
+    "penicillins": "penicillins"
+  }
+}

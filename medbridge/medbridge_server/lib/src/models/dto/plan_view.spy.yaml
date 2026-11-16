@@ -1,0 +1,4 @@
+class: PlanView
+fields:
+  plan: DischargePlan
+  items: List<PlanItemRow>

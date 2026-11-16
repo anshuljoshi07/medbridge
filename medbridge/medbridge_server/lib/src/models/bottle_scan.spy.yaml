@@ -1,0 +1,22 @@
+# A confirmed bottle scan. Text only: images are never stored (F3).
+class: BottleScan
+table: bottle_scan
+fields:
+  patientId: int, relation(parent=patient, onDelete=Cascade)
+  ndc11: String?
+  rxcui: String?
+  name: String
+  ingsJson: String
+  strength: String
+  form: String
+  sigRaw: String
+  sigJson: String?
+  ocrText: String
+  conf: double
+  confirmed: bool
+  classIdsJson: String, default='[]'
+  setAside: bool, default=false
+  scannedAt: DateTime, default=now
+indexes:
+  bottle_scan_patient_idx:
+    fields: patientId

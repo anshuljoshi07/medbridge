@@ -1,0 +1,55 @@
+{
+ "frames": [
+  [
+   "CALE PHARMCY  217-555-0l00",
+   "RX 4471209",
+   "BENAZEPRIL 2O MG TBLET",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 3O   REFILLS: 2",
+   "FILED: 1l/01/2026",
+   "R. A. SMITH"
+  ],
+  [
+   "RX 4471209",
+   "BENAZEPRIL 20 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-01O0",
+   "RX 4471209",
+   "BENAZEPRIL 20 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "FILLED: 1l/01/2026",
+   "R. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0l0O",
+   "BENAZEPRIL 20 MG TABLET",
+   "QTY: 30   REFILL5: 2"
+  ],
+  [
+   "CARL PHARMACY  217-555-0l00",
+   "BNZEPRIL 20 MG TABLET",
+   "TAE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "BENAZERIL 20 MG TABLET",
+   "QTY: 30   EFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "benazepril",
+  "strength": "20 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

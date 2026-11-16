@@ -1,0 +1,41 @@
+{
+  "en": {
+    "verb.take": "Take", "verb.inhale": "Inhale", "verb.apply": "Apply", "verb.put": "Put",
+    "verb.inject": "Inject", "verb.place": "Place", "verb.use": "Use",
+    "unit.tablet.one": "tablet", "unit.tablet.other": "tablets",
+    "unit.capsule.one": "capsule", "unit.capsule.other": "capsules",
+    "unit.drop.one": "drop", "unit.drop.other": "drops",
+    "unit.puff.one": "puff", "unit.puff.other": "puffs",
+    "unit.patch.one": "patch", "unit.patch.other": "patches",
+    "route.oral": "by mouth", "route.sublingual": "under the tongue",
+    "route.topical": "on the skin", "route.transdermal": "on the skin",
+    "route.subcutaneous": "under the skin", "route.inhalation": "",
+    "eye.right": "in the right eye", "eye.left": "in the left eye", "eye.both": "in both eyes",
+    "freq.1": "once a day", "freq.n": "{n} times a day", "every.h": "every {h} hours",
+    "slot.morning": "every morning", "slot.noon": "at noon", "slot.afternoon": "every afternoon",
+    "slot.evening": "every evening", "slot.bedtime": "at bedtime",
+    "prn": "only if needed", "prn.max": "no more than {n} a day",
+    "food.before": "before meals", "food.after": "after meals", "food.with": "with food",
+    "days": "for {n} days"
+  },
+  "es": {
+    "_status": "pending translator review",
+    "verb.take": "Tome", "verb.inhale": "Inhale", "verb.apply": "Aplique", "verb.put": "Ponga",
+    "verb.inject": "Inyecte", "verb.place": "Coloque", "verb.use": "Use",
+    "unit.tablet.one": "tableta", "unit.tablet.other": "tabletas",
+    "unit.capsule.one": "cápsula", "unit.capsule.other": "cápsulas",
+    "unit.drop.one": "gota", "unit.drop.other": "gotas",
+    "unit.puff.one": "inhalación", "unit.puff.other": "inhalaciones",
+    "unit.patch.one": "parche", "unit.patch.other": "parches",
+    "route.oral": "por la boca", "route.sublingual": "debajo de la lengua",
+    "route.topical": "sobre la piel", "route.transdermal": "sobre la piel",
+    "route.subcutaneous": "debajo de la piel", "route.inhalation": "",
+    "eye.right": "en el ojo derecho", "eye.left": "en el ojo izquierdo", "eye.both": "en ambos ojos",
+    "freq.1": "una vez al día", "freq.n": "{n} veces al día", "every.h": "cada {h} horas",
+    "slot.morning": "cada mañana", "slot.noon": "al mediodía", "slot.afternoon": "cada tarde",
+    "slot.evening": "cada noche", "slot.bedtime": "al acostarse",
+    "prn": "solo si es necesario", "prn.max": "no más de {n} al día",
+    "food.before": "antes de las comidas", "food.after": "después de las comidas", "food.with": "con comida",
+    "days": "durante {n} días"
+  }
+}

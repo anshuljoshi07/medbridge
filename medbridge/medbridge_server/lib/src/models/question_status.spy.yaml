@@ -1,0 +1,4 @@
+enum: QuestionStatus
+values:
+  - open
+  - answered

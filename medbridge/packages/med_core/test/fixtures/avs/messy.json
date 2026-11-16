@@ -1,0 +1,48 @@
+{
+ "lines": [
+  "ALLERGIES: none known",
+  "• START TAKING:",
+  "1. losartan 50 mg tab, take 1 tab by mouth once daily",
+  "CONTINUE TAKING:",
+  "2. atorvastatin 40 mg tab",
+  "take 1 tab PO at bedtime",
+  "3. prednisone 10 mg tab",
+  "Take 4 tabs daily x 3 days then 2 tabs daily",
+  "Ask your nurse about this one ???",
+  "STOP TAKING:",
+  "4. lisinopril 10 mg tab"
+ ],
+ "expected": {
+  "items": [
+   {
+    "action": "start",
+    "ing": "losartan",
+    "strength": "50 mg",
+    "sig": "take 1 tab by mouth once daily"
+   },
+   {
+    "action": "keep",
+    "ing": "atorvastatin",
+    "strength": "40 mg",
+    "sig": "take 1 tab PO at bedtime"
+   },
+   {
+    "action": "keep",
+    "ing": "prednisone",
+    "strength": "10 mg",
+    "sig": "Take 4 tabs daily x 3 days then 2 tabs daily",
+    "flags": [
+     "TAPER"
+    ]
+   },
+   {
+    "action": "stop",
+    "ing": "lisinopril",
+    "strength": "10 mg",
+    "sig": ""
+   }
+  ],
+  "allergies": [],
+  "unrecognized": 1
+ }
+}

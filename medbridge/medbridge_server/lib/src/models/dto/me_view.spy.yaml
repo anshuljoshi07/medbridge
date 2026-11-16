@@ -1,0 +1,6 @@
+# Who the caller is: their own patient profile (if any), scopes and links.
+class: MeView
+fields:
+  patient: Patient?
+  roles: List<String>
+  linkedPatients: List<Patient>

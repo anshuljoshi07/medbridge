@@ -1,0 +1,5 @@
+class: ScheduleView
+fields:
+  schedule: DoseSchedule
+  item: PlanItemRow
+  events: List<DoseEvent>

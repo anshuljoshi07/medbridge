@@ -1,0 +1,4 @@
+class: ScanHistoryEntry
+fields:
+  scan: BottleScan
+  recon: ReconRow

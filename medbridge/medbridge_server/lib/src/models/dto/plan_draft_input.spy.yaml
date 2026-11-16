@@ -1,0 +1,6 @@
+class: PlanDraftInput
+fields:
+  items: List<PlanItemInput>
+  allergies: List<String>
+  unrecognized: List<String>
+  dischargeDate: DateTime?

@@ -1,0 +1,6 @@
+class: RxHit
+fields:
+  rxcui: String
+  name: String
+  tty: String
+  score: double?

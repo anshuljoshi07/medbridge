@@ -1,0 +1,54 @@
+emailIdp:
+  - startOtpLogin:
+  - verifyOtpLoginCode:
+  - finishOtpLogin:
+  - finishOtpRegistration:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+alerts:
+  - list:
+  - ack:
+care:
+  - createInvite:
+  - acceptInvite:
+  - revoke:
+  - links:
+dashboard:
+  - patients:
+  - flagged:
+  - summary:
+  - resolveFlag:
+patient:
+  - me:
+  - register:
+  - updatePrefs:
+  - setAllergies:
+plan:
+  - uploadDraft:
+  - confirm:
+  - get:
+  - verify:
+  - editItem:
+questions:
+  - list:
+  - add:
+  - answer:
+rx:
+  - byNdc:
+  - approximate:
+  - classesFor:
+scan:
+  - submit:
+  - history:
+  - setAside:
+schedule:
+  - get:
+  - logDose:

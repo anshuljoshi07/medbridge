@@ -1,0 +1,13 @@
+# RxNav responses cached for 30 days.
+class: RxCache
+table: rx_cache
+serverOnly: true
+fields:
+  key: String
+  kind: String
+  json: String
+  fetchedAt: DateTime
+indexes:
+  rx_cache_key_idx:
+    fields: key
+    unique: true

@@ -1,0 +1,56 @@
+{
+ "frames": [
+  [
+   "RX 4471209",
+   "METOPROLOL SUCC ER 50 MG TAB",
+   "TAKE 1 TABLET BY M0UTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026"
+  ],
+  [
+   "RX 4471209",
+   "METOPROLOL SUCC ER 50 MG TAB",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-010O",
+   "RX 447l209",
+   "TAKE l TABLET BY MOUTH DAILY",
+   "QTY: 30   REILLS: 2",
+   "FILLED: 11/01/2026"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 44712O9",
+   "METOPROLOL SUCC ER 50 MG TAB",
+   "TAKE 1 TABLE BY OUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: l1/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "R 4471209",
+   "METOPROL0L SUCC ER 50 MG TB",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-O100",
+   "RX 4471209",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "metoprolol",
+  "strength": "50 mg",
+  "release": "extended",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

@@ -1,0 +1,64 @@
+{
+ "lines": [
+  "Carle Fondation Hospital - After Visit 5ummary",
+  "Patient: R. Doe   Age: 78",
+  "Allergies: Penicillin",
+  "START taking these medications",
+  "1osartan 50 mg tablet",
+  "Take 1 tab PO daily",
+  "Commonly known as: Cozaar",
+  "CHANG how you take these medications",
+  "metoprolol succinate ER 25 mg tablet",
+  "Take 1 tab PO daily",
+  "CONTINUE taking these medications",
+  "atorvastatin 40 mg tablet",
+  "Take 1 tab PO QHS",
+  "HOLD these medications",
+  "metformin 500 mg tablet",
+  "Take 1 tab PO BID",
+  "until follow-up",
+  "STOP taking these medications",
+  "lisinopril 10 mg tablet",
+  "Follow-up appointments",
+  "See Dr. Smith in 1 week"
+ ],
+ "expected": {
+  "items": [
+   {
+    "action": "start",
+    "ing": "losartan",
+    "strength": "50 mg",
+    "sig": "Take 1 tab PO daily"
+   },
+   {
+    "action": "change",
+    "ing": "metoprolol",
+    "strength": "25 mg",
+    "sig": "Take 1 tab PO daily"
+   },
+   {
+    "action": "keep",
+    "ing": "atorvastatin",
+    "strength": "40 mg",
+    "sig": "Take 1 tab PO QHS"
+   },
+   {
+    "action": "hold",
+    "ing": "metformin",
+    "strength": "500 mg",
+    "sig": "Take 1 tab PO BID"
+   },
+   {
+    "action": "stop",
+    "ing": "lisinopril",
+    "strength": "10 mg",
+    "sig": ""
+   }
+  ],
+  "allergies": [
+   "penicillin",
+   "penicillins"
+  ],
+  "unrecognized": 0
+ }
+}

@@ -1,0 +1,5 @@
+enum: PlanStatus
+values:
+  - draft
+  - unverified
+  - verified

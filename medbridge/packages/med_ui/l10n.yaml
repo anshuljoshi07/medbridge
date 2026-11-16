@@ -1,0 +1,7 @@
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: med_localizations.dart
+output-class: MedL10n
+output-dir: lib/src/l10n_gen
+synthetic-package: false
+nullable-getter: false

@@ -1,0 +1,6 @@
+class: SafetyFlagDto
+fields:
+  kind: String
+  sev: String
+  code: String
+  detail: String

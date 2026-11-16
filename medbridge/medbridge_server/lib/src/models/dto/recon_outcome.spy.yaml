@@ -1,0 +1,14 @@
+# The authoritative reconcile result for one scan (A8, F4).
+class: ReconOutcome
+fields:
+  reconId: int
+  scanId: int
+  status: String
+  reason: String
+  sev: String
+  itemKey: String?
+  flags: List<SafetyFlagDto>
+  ruleVersion: String
+  params: Map<String, String>
+  questionId: int?
+  needsAcknowledgment: bool

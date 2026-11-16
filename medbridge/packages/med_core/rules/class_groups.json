@@ -1,0 +1,37 @@
+{
+  "note": "Clinical duplicate groups. Needs pharmacist sign-off (Q5).",
+  "groups": {
+    "raas": [
+      "C09AA",
+      "C09CA",
+      "C09XA"
+    ],
+    "beta_blocker": [
+      "C07AA",
+      "C07AB"
+    ],
+    "statin": [
+      "C10AA"
+    ],
+    "ppi": [
+      "A02BC"
+    ],
+    "anticoag": [
+      "B01AA",
+      "B01AE",
+      "B01AF"
+    ],
+    "dhp_ccb": [
+      "C08CA"
+    ],
+    "thiazide": [
+      "C03AA"
+    ],
+    "penicillins": [
+      "J01CA",
+      "J01CE",
+      "J01CF",
+      "J01CR"
+    ]
+  }
+}

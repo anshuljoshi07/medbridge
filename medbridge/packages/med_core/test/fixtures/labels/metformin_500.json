@@ -1,0 +1,55 @@
+{
+ "frames": [
+  [
+   "RX 4471209",
+   "METF0RIN HCL 500 MG TABLET",
+   "TAKE 1 TABLET BY MOTH TWICE DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/O1/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "RX 4471209",
+   "METFORMIN HC 5O0 MG TABLET",
+   "TAKE 1 TABLET 8Y MOUTH TWIE DAILY",
+   "QTY: 30   EILLS: 2",
+   "FILLED: 11/01/2026"
+  ],
+  [
+   "CARLE HAMCY  217-555-0100",
+   "METFORMIN HCL 5O0 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH TWICE DAILY",
+   "FILLED: 1l/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHRMACY  217-555-0100",
+   "RX 4471209",
+   "METFORMIN HCL 500 MG ABLET",
+   "TAKE 1 TABLT BY MOUTH TWICE DAILY",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "METFORMIN HCL 500 MG TABLET",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARACY  217-555-O100",
+   "RX 4471209",
+   "TAKE 1 TA8LET BY MOUTH TWICE DAILY",
+   "QTY: 30   REFILLS: 2",
+   "ILLED: 11/01/2O26",
+   "DR. A. 5MITH"
+  ]
+ ],
+ "expected": {
+  "ing": "metformin",
+  "strength": "500 mg",
+  "needsChoice": true
+ },
+ "context": "rdoe"
+}

@@ -1,0 +1,11 @@
+class: FlaggedScan
+fields:
+  reconId: int
+  patientId: int
+  patientName: String
+  scanName: String
+  status: String
+  reason: String
+  sev: String
+  createdAt: DateTime
+  resolvedNote: String?

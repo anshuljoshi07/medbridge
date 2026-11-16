@@ -1,0 +1,54 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "TY: 3O   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARE PHARMACY  217-555-010O",
+   "RX 4471209",
+   "LISINOPRIL 10 MG TABLET",
+   "QTY: 30   REFILLS: 2",
+   "FlLED: 11/01/2026"
+  ],
+  [
+   "LISINOPRIL 10 MG TABLET",
+   "TAKE 1 TABLET B MOUTH DAILY",
+   "QTY: 30   REFlLLS: 2",
+   "DR. A. SMITH"
+  ],
+  [
+   "R 4471209",
+   "LISINOPRIL 10 MG TA8LET",
+   "TAKE 1 TABLET BY M0UTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ],
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "LISINOPRIL 10 MG TABLET",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. 5MITH"
+  ]
+ ],
+ "expected": {
+  "ing": "lisinopril",
+  "strength": "10 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

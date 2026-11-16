@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "OMEPRAZOLE DR 20 MG CAPSULE",
+   "TAKE 1 CAPSULE BY MOUTH DAILY BEFORE BREAKFAST",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "omeprazole",
+  "strength": "20 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

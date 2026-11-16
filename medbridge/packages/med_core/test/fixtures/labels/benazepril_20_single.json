@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "BENAZEPRIL 20 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "benazepril",
+  "strength": "20 mg",
+  "needsChoice": false
+ },
+ "context": "rdoe"
+}

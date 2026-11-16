@@ -1,0 +1,11 @@
+{
+  "version": "2026.11.0",
+  "confFloor": 0.7,
+  "confHigh": 0.9,
+  "lasaDelta": 0.05,
+  "missedWindowMin": 120,
+  "missedAlertN": 2,
+  "penaltyZeroRisk": 0.2,
+  "penaltyMissingStrength": 0.3,
+  "penaltySingleFrame": 0.1
+}

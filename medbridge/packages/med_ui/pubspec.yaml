@@ -1,0 +1,33 @@
+name: med_ui
+description: MedBridge design system — tokens, themes, accessible widgets, localization.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.12.2
+  flutter: ^3.44.4
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  material_ui: ^1.11.0
+  med_core:
+    path: ../med_core
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: 11.0.0
+
+flutter:
+  generate: true
+  assets:
+    - assets/fonts/OFL.txt
+  fonts:
+    - family: AtkinsonHyperlegible
+      fonts:
+        - asset: assets/fonts/AtkinsonHyperlegible-Regular.ttf
+        - asset: assets/fonts/AtkinsonHyperlegible-Bold.ttf
+          weight: 700

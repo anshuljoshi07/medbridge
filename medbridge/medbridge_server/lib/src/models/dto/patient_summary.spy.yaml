@@ -1,0 +1,11 @@
+class: PatientSummary
+fields:
+  patientId: int
+  firstName: String
+  birthYear: int?
+  planId: int?
+  planStatus: String?
+  redCount: int
+  amberCount: int
+  openQuestions: int
+  lastScanAt: DateTime?

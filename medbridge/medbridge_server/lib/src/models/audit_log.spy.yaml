@@ -1,0 +1,13 @@
+# Every PHI read or write (A10, F10).
+class: AuditLog
+table: audit_log
+serverOnly: true
+fields:
+  actorUserId: UuidValue?
+  action: String
+  entity: String
+  entityId: String
+  at: DateTime, default=now
+indexes:
+  audit_entity_idx:
+    fields: entity, entityId

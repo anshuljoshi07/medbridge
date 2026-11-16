@@ -1,0 +1,25 @@
+# One discharge-plan line. Adapters toCore()/fromCore() map it to
+# med_core PlanItem.
+class: PlanItemRow
+table: plan_item
+fields:
+  planId: int, relation(parent=discharge_plan, onDelete=Cascade)
+  itemKey: String
+  action: String       # keep|change|stop|start|hold
+  name: String
+  rxcui: String?
+  ingsJson: String
+  scd: String?
+  strength: String
+  form: String
+  route: String?
+  sigRaw: String
+  sigJson: String?
+  holdUntil: DateTime?
+  holdNote: String?
+  src: String
+  conf: double
+  classIdsJson: String, default='[]'
+indexes:
+  plan_item_plan_idx:
+    fields: planId

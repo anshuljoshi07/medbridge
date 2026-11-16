@@ -1,0 +1,274 @@
+{
+  "@@locale": "en",
+  "appName": "MedBridge",
+  "tagline": "Discharge meds, made clear.",
+  "tabToday": "Today",
+  "tabScan": "Scan",
+  "tabMyMeds": "My meds",
+  "tabQuestions": "Questions",
+  "statusKeep": "Continue",
+  "statusChanged": "Changed",
+  "statusStop": "Stop",
+  "statusNew": "New",
+  "statusHold": "Hold",
+  "statusDuplicate": "Duplicate",
+  "statusUnknown": "Unknown",
+  "sevOk": "All good",
+  "sevInfo": "For your information",
+  "sevAmber": "Check this",
+  "sevRed": "Needs attention",
+  "msgLowConfidence": "We couldn't read this clearly. Add it to your questions.",
+  "msgPlanStop": "Your care team stopped this medicine. Don't take it. Set it aside.",
+  "msgPlanHold": "Pause this medicine until {when}.",
+  "@msgPlanHold": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "msgNewDirections": "Same medicine, new directions: {sig}",
+  "@msgNewDirections": {
+    "placeholders": {
+      "sig": {
+        "type": "String"
+      }
+    }
+  },
+  "msgOldStrength": "Your dose changed. Don't use this bottle until a pharmacist confirms.",
+  "msgMatch": "Keep taking this as before: {sig}",
+  "@msgMatch": {
+    "placeholders": {
+      "sig": {
+        "type": "String"
+      }
+    }
+  },
+  "msgMismatch": "This bottle doesn't match your plan. Ask your pharmacist before taking.",
+  "msgNewMed": "This is a new medicine: {sig}",
+  "@msgNewMed": {
+    "placeholders": {
+      "sig": {
+        "type": "String"
+      }
+    }
+  },
+  "msgNewMedMismatch": "This doesn't match the new medicine on your plan. Ask your pharmacist.",
+  "msgDuplicate": "This may do the same job as {planMed}. Don't take both. Ask your care team.",
+  "@msgDuplicate": {
+    "placeholders": {
+      "planMed": {
+        "type": "String"
+      }
+    }
+  },
+  "msgNotOnPlan": "This isn't on your discharge plan. Ask before taking it.",
+  "msgComboPartial": "This bottle has more than one medicine. Ask your pharmacist before taking.",
+  "msgSigUnsupported": "These directions are complex. Ask your pharmacist how to take it.",
+  "askPharmacist": "Ask your pharmacist",
+  "fromYourPapers": "From your discharge papers:",
+  "readAloud": "Read aloud",
+  "addToQuestions": "Add to my questions",
+  "scanNext": "Scan next",
+  "setAside": "I've set this bottle aside",
+  "emptyToday": "Let's set up your medicines. Scan your discharge papers to start.",
+  "scanPapers": "Scan discharge papers",
+  "scanHint": "Hold the bottle in the box. Turn it slowly.",
+  "lowConfidenceRead": "We couldn't read this clearly. Try again, or type it in.",
+  "markedTaken": "Marked as taken.",
+  "undo": "Undo",
+  "missedPrompt": "You haven't marked your {time} medicines. Take them now, or skip?",
+  "@missedPrompt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "offline": "You're offline. Everything still works on this phone.",
+  "savedOnPhone": "Saved on this phone",
+  "stopShort": "Don't take this. Your care team stopped it.",
+  "needsAttention": "{count, plural, =1{1 medicine needs attention} other{{count} medicines need attention}}",
+  "@needsAttention": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "review": "Review",
+  "nextDose": "Next dose",
+  "taken": "Taken",
+  "skip": "Skip",
+  "skipped": "Skipped",
+  "takenOfTotal": "{taken} of {total} taken today",
+  "@takenOfTotal": {
+    "placeholders": {
+      "taken": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "slotMorning": "Morning",
+  "slotNoon": "Noon",
+  "slotAfternoon": "Afternoon",
+  "slotEvening": "Evening",
+  "slotBedtime": "Bedtime",
+  "asNeededMax": "As needed, no more than {n} a day",
+  "@asNeededMax": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "asNeeded": "As needed",
+  "reviewPlan": "Review your plan",
+  "looksRight": "Looks right",
+  "checkThis": "Check this",
+  "linesWeCouldntRead": "Lines we couldn't read",
+  "chipNew": "New",
+  "chipChanged": "Changed",
+  "chipKeep": "Keep taking",
+  "chipPaused": "Paused",
+  "chipStopped": "Stopped",
+  "isThisYourMedicine": "Is this your medicine?",
+  "yes": "Yes",
+  "notThisOne": "Not this one",
+  "whichOne": "Which medicine is this?",
+  "neither": "Neither",
+  "typeItInstead": "Type it instead",
+  "bottlesChecked": "{checked} of {total} bottles checked",
+  "@bottlesChecked": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "scanned": "Scanned ✓",
+  "notScannedYet": "Not scanned yet",
+  "pickUpFromPharmacy": "Pick up from pharmacy",
+  "addedForYou": "Added for you",
+  "addQuestion": "Add a question",
+  "shareWithDoctor": "Share with my doctor",
+  "answered": "Answered",
+  "waitingForAnswer": "Waiting for an answer",
+  "careTeam": "Care team",
+  "invite": "Invite",
+  "remove": "Remove",
+  "inviteCodeIs": "Share this code: {code}",
+  "@inviteCodeIs": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "enterInviteCode": "Enter an invite code",
+  "viewingMeds": "Viewing {name}'s medicines",
+  "@viewingMeds": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "textSize": "Text size",
+  "language": "Language",
+  "speechRate": "Read-aloud speed",
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeHighContrast": "High contrast",
+  "signOut": "Sign out",
+  "signIn": "Sign in",
+  "stepOf": "Step {step} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "chooseLanguage": "Choose your language",
+  "whoAreYou": "Who is using MedBridge?",
+  "rolePatient": "I'm the patient",
+  "roleCaregiver": "I help someone",
+  "yourFirstName": "Your first name",
+  "textSizePreview": "This is how text will look.",
+  "cameraPrimer": "We use the camera only to read labels. Photos are never saved.",
+  "notificationPrimer": "We'll remind you when it's time for your medicines. Reminders never show medicine names unless you choose.",
+  "allergiesOptional": "Any allergies? (optional)",
+  "continueLabel": "Continue",
+  "back": "Back",
+  "done": "Done",
+  "save": "Save",
+  "cancel": "Cancel",
+  "tryAgain": "Try again",
+  "addPage": "Add page",
+  "pages": "{count, plural, =1{1 page} other{{count} pages}}",
+  "@pages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pasteOrType": "Type or paste the text from your papers",
+  "useSampleR": "Use the sample papers (R. Doe)",
+  "pendingTranslatorReview": "Spanish text is a draft pending medical-translator review.",
+  "verified": "Checked by a pharmacist",
+  "unverified": "Not yet checked by a pharmacist",
+  "errorGeneric": "Something went wrong. Your plan still works on this phone.",
+  "noInternet": "No internet. Your plan still works on this phone.",
+  "highRiskBadge": "High-alert medicine",
+  "interactionBanner": "May interact with another medicine: {detail}",
+  "@interactionBanner": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "allergyBlock": "Allergy alert. Don't take this until your care team says it's safe.",
+  "lasaBadge": "Name looks like another medicine",
+  "writeStopOnCap": "Tip: write STOP on the cap.",
+  "untilFollowUp": "your follow-up visit",
+  "dashPatients": "Patients",
+  "dashFlags": "Flagged scans",
+  "dashInbox": "Questions",
+  "dashVerify": "Verify plan",
+  "dashSummary": "Summary",
+  "redCount": "{n} red",
+  "@redCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "amberCount": "{n} amber",
+  "@amberCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "answer": "Answer",
+  "verify": "Verify",
+  "resolve": "Mark reviewed",
+  "density": "Compact rows",
+  "sessionExpired": "Signed out after 15 minutes idle."
+}

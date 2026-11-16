@@ -1,0 +1,17 @@
+# Patient-initiated link to a caregiver or clinician (A3). userId is null
+# until the invite code is accepted.
+class: CareLink
+table: care_link
+fields:
+  patientId: int, relation(parent=patient, onDelete=Cascade)
+  userId: UuidValue?
+  role: CareRole
+  status: LinkStatus, default=pending
+  inviteCode: String
+  createdAt: DateTime, default=now
+indexes:
+  care_link_code_idx:
+    fields: inviteCode
+    unique: true
+  care_link_user_idx:
+    fields: userId

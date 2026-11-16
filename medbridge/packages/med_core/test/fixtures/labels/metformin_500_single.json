@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "METFORMIN HCL 500 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH TWICE DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "metformin",
+  "strength": "500 mg",
+  "needsChoice": true
+ },
+ "context": "rdoe"
+}

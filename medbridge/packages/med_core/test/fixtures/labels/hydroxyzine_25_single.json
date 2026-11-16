@@ -1,0 +1,19 @@
+{
+ "frames": [
+  [
+   "CARLE PHARMACY  217-555-0100",
+   "RX 4471209",
+   "HYDROXYZINE HCL 25 MG TABLET",
+   "TAKE 1 TABLET BY MOUTH THREE TIMES DAILY",
+   "QTY: 30   REFILLS: 2",
+   "FILLED: 11/01/2026",
+   "DR. A. SMITH"
+  ]
+ ],
+ "expected": {
+  "ing": "hydroxyzine",
+  "strength": "25 mg",
+  "needsChoice": true
+ },
+ "context": "rdoe"
+}

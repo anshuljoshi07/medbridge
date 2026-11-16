@@ -1,0 +1,15 @@
+# A caregiver alert. Push text never contains PHI (F7).
+class: Alert
+table: alert
+fields:
+  patientId: int, relation(parent=patient, onDelete=Cascade)
+  type: String         # red_result|missed_doses|missed_high_risk
+  sev: String
+  dedupeKey: String
+  recipientsJson: String
+  sentAt: DateTime, default=now
+  ackAt: DateTime?
+indexes:
+  alert_dedupe_idx:
+    fields: dedupeKey
+    unique: true

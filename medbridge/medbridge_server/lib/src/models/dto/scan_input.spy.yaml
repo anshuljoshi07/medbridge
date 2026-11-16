@@ -1,0 +1,15 @@
+# A confirmed bottle read sent by the app. The server re-runs reconcile.
+class: ScanInput
+fields:
+  ndc11: String?
+  rxcui: String?
+  scd: String?
+  name: String
+  ings: List<String>
+  strength: String?
+  form: String
+  sigRaw: String
+  conf: double
+  confirmed: bool
+  classIds: List<String>
+  ocrText: String

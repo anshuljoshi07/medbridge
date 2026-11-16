@@ -1,0 +1,6 @@
+enum: CareRole
+values:
+  - caregiver
+  - pharmacist
+  - clinician
+  - pcp

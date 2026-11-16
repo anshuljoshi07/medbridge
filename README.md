@@ -12,6 +12,8 @@ Carle Illinois College of Medicine × Gies College of Business capstone.
 > clinician's plan and routes questions; it does not direct therapy. See the
 > pilot gate in [`implementation.md`](implementation.md) (B12) before any real use.
 
+**→ [Feature guide: what works today](FEATURES.md)**
+
 ## Try it
 
 | Where | How |
